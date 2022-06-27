@@ -8,20 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "frontmatter": {},
-      "regularPath": "/interview/",
-      "relativePath": "interview/README.md",
-      "key": "v-0fec9cc2",
-      "path": "/interview/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/css/",
-      "relativePath": "web/css/README.md",
-      "key": "v-d145753e",
-      "path": "/web/css/"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -46,15 +32,29 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-14f28a0e",
+      "key": "v-3e73283b",
       "path": "/"
     },
     {
       "frontmatter": {},
       "regularPath": "/web/html/",
       "relativePath": "web/html/README.md",
-      "key": "v-5e5fa689",
+      "key": "v-55d8074b",
       "path": "/web/html/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/interview/",
+      "relativePath": "interview/README.md",
+      "key": "v-0acfd504",
+      "path": "/interview/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/css/",
+      "relativePath": "web/css/README.md",
+      "key": "v-b0ca22ba",
+      "path": "/web/css/"
     }
   ],
   "themeConfig": {
