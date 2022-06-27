@@ -1,4 +1,5 @@
 module.exports = {
+  base: "/blog/",
   title: "博",
   description: "记录点点滴滴",
   themeConfig: {
