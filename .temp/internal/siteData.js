@@ -3,35 +3,21 @@
  */
 export const siteData = {
   "title": "博",
-  "description": "记录点点滴滴",
-  "base": "/",
+  "description": "=====",
+  "base": "/blog/",
   "headTags": [],
   "pages": [
-    {
-      "frontmatter": {},
-      "regularPath": "/interview/",
-      "relativePath": "interview/README.md",
-      "key": "v-0fec9cc2",
-      "path": "/interview/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/css/",
-      "relativePath": "web/css/README.md",
-      "key": "v-d145753e",
-      "path": "/web/css/"
-    },
     {
       "title": "Home",
       "frontmatter": {
         "home": true,
         "heroImage": "/home.jpg?v=1",
         "actionText": "Get Started",
-        "actionLink": "/node/",
+        "actionLink": "/web/html/",
         "features": [
           {
             "title": "day day up",
-            "details": "记录每一天的进步, 一分耕耘，一分收获."
+            "details": "记录每一天的进步, 耕耘，收获."
           },
           {
             "title": "程序员成长指北",
@@ -46,22 +32,74 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-14f28a0e",
+      "key": "v-3e73283b",
       "path": "/"
     },
     {
       "frontmatter": {},
+      "regularPath": "/interview/",
+      "relativePath": "interview/README.md",
+      "key": "v-0acfd504",
+      "path": "/interview/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/css/",
+      "relativePath": "web/css/README.md",
+      "key": "v-b0ca22ba",
+      "path": "/web/css/"
+    },
+    {
+      "title": "此页记录了开发过程中遇到的bug及部分需求的实现",
+      "frontmatter": {},
+      "regularPath": "/bug/",
+      "relativePath": "bug/README.md",
+      "key": "v-15d3e3de",
+      "path": "/bug/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "此页记录了开发过程中遇到的bug及部分需求的实现",
+          "slug": "此页记录了开发过程中遇到的bug及部分需求的实现"
+        },
+        {
+          "level": 3,
+          "title": "H5",
+          "slug": "h5"
+        },
+        {
+          "level": 3,
+          "title": "小程序",
+          "slug": "小程序"
+        }
+      ]
+    },
+    {
+      "title": "这是我的首页",
+      "frontmatter": {},
       "regularPath": "/web/html/",
       "relativePath": "web/html/README.md",
-      "key": "v-5e5fa689",
-      "path": "/web/html/"
+      "key": "v-55d8074b",
+      "path": "/web/html/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "这是我的首页",
+          "slug": "这是我的首页"
+        }
+      ]
     }
   ],
   "themeConfig": {
+    "sidebar": "auto",
     "nav": [
       {
         "text": "主页",
         "link": "/"
+      },
+      {
+        "text": "bug",
+        "link": "/bug/"
       },
       {
         "text": "前端",
