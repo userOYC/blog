@@ -4,7 +4,7 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "C:\\Users\\admin22\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "E:\\user\\彼邑科技\\个人\\代码文件\\个人项目\\blog\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
@@ -19,6 +19,18 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
+  },
+  {
+    name: "v-15d3e3de",
+    path: "/bug/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-15d3e3de").then(next)
+    },
+  },
+  {
+    path: "/bug/index.html",
+    redirect: "/bug/"
   },
   {
     name: "v-0acfd504",
@@ -45,18 +57,6 @@ export const routes = [
     redirect: "/web/css/"
   },
   {
-    name: "v-15d3e3de",
-    path: "/bug/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-15d3e3de").then(next)
-    },
-  },
-  {
-    path: "/bug/index.html",
-    redirect: "/bug/"
-  },
-  {
     name: "v-55d8074b",
     path: "/web/html/",
     component: GlobalLayout,
@@ -67,6 +67,18 @@ export const routes = [
   {
     path: "/web/html/index.html",
     redirect: "/web/html/"
+  },
+  {
+    name: "v-43ba2ffe",
+    path: "/Phaser/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-43ba2ffe").then(next)
+    },
+  },
+  {
+    path: "/Phaser/index.html",
+    redirect: "/Phaser/"
   },
   {
     path: '*',

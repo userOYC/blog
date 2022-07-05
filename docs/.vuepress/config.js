@@ -1,12 +1,13 @@
 module.exports = {
-  base: "/blog/",
-  title: "博",
+  // base: "/blog/",
+  title: "欧先森",
   description: "=====",
   themeConfig: {
-    sidebar: 'auto',
+    // sidebar: 'auto',//侧边栏
     nav: [
       { text: "主页", link: "/" },
       { text: "bug", link: "/bug/" },
+      { text: "Phaser学习笔记", link: "/Phaser/" },
       {
         text: "前端",
         items: [

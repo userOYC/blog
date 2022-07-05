@@ -3,8 +3,9 @@
  */
 export default {
   "v-3e73283b": () => import("E:\\user\\彼邑科技\\个人\\代码文件\\个人项目\\blog\\docs\\README.md"),
+  "v-15d3e3de": () => import("E:\\user\\彼邑科技\\个人\\代码文件\\个人项目\\blog\\docs\\bug\\README.md"),
   "v-0acfd504": () => import("E:\\user\\彼邑科技\\个人\\代码文件\\个人项目\\blog\\docs\\interview\\README.md"),
   "v-b0ca22ba": () => import("E:\\user\\彼邑科技\\个人\\代码文件\\个人项目\\blog\\docs\\web\\css\\README.md"),
-  "v-15d3e3de": () => import("E:\\user\\彼邑科技\\个人\\代码文件\\个人项目\\blog\\docs\\bug\\README.md"),
-  "v-55d8074b": () => import("E:\\user\\彼邑科技\\个人\\代码文件\\个人项目\\blog\\docs\\web\\html\\README.md") 
+  "v-55d8074b": () => import("E:\\user\\彼邑科技\\个人\\代码文件\\个人项目\\blog\\docs\\web\\html\\README.md"),
+  "v-43ba2ffe": () => import("E:\\user\\彼邑科技\\个人\\代码文件\\个人项目\\blog\\docs\\Phaser\\README.md") 
 }
